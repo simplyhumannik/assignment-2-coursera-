@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blanchedalmond;
+}
+
+.h2{
+    text-align: center;
+    margin-top: 1em;
+    font-size: xx-large;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: beige;
+    padding-bottom: 90px;
+    margin-top: 50px;
+}
+
+.cnt1{
+    background-color: gray;
+    margin-left: 1em;
+    margin-top: 5em;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    width: 30%;
+    border: 2px solid black;
+}
+.cnt2{
+    background-color: gray;
+    margin-left: 1em;
+    margin-top: 5em;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    width: 30%;
+    border: 2px solid black;
+}
+.cnt3{
+    background-color: gray;
+    margin-left: 1em;
+    margin-top: 5em;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    width: 30%;
+    border: 2px solid black;
+}
+
+.para{
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.pink{
+    background-color: pink;
+    text-align: center;
+    margin-left: 50%;
+    margin-bottom: 5px;
+    font-size: larger;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.red{
+    background-color: red;
+    text-align: center;
+    margin-left: 50%;
+    margin-bottom: 5px;
+    font-size: larger;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.yellow{
+    background-color: yellow;
+    text-align: center;
+    margin-left: 50%;
+    margin-bottom: 5px;
+    font-size: larger;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+@media screen and (min-width: 400px) and (max-width: 650px) {
+
+    body{
+        background-color: bisque;
+    }
+    
+    .container{
+        background-color: azure;
+        padding-bottom: 40px;
+        margin-top: 40px;
+    }
+    .cnt1{
+        width: 40%;
+    }
+    .cnt2{
+        width: 40%;
+    }
+    .cnt3{
+        width: 88%;
+        margin-top: 20px;
+        height: auto;
+    }
+    .yellow{
+        margin-left: 75%;
+    }
+    #para3{
+        font-size: 23px;
+    }
+    .h2{
+    font-size: xx-large;
+    }
+  }
+
+
+  @media screen and (max-width: 370px) {
+
+    body{
+        background-color: aquamarine;
+    }
+
+    .container{
+        display: block;
+        background-color: antiquewhite;
+    }
+    .cnt1{
+        margin-top: 2em;
+        margin-bottom: 1em;
+        width: 90%;
+    }
+    .cnt2{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 90%;
+    }
+    .cnt3{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 90%;
+    }
+    .h2{
+    font-size: xx-large;
+    }
+  }
